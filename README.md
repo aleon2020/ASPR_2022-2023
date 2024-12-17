@@ -34,24 +34,24 @@ Directorio ['Prácticas'](https://github.com/aleon2020/ASR_2022-2023/tree/main/P
 
 ## 4. Activación de ROS2 en los laboratorios de la universidad
 
-Abre una terminal EN TU HOME y ejecuta los siguientes comandos:
+Abre una terminal EN TU HOME y ejecuta el siguiente comandos:
 
 ```sh
-$ nano ./bashrc
+nano ./bashrc
 ```
 
-Dentro del archivo escribe la siguiente línea: 
+Dentro de este archivo, escribe la siguiente línea: 
 
 ```sh
-source /opt/ros/humble/setup.bash
+source /opt/ros/jazzy/setup.bash
 ```
 
-Guarda y cierra el fichero, y cierra la terminal (de esta forma se guarda todo lo incluido en el bashrc).
+Guarda los cambios, cierra el fichero y la terminal. De esta forma se guardarán todos los cambios realizados en el fichero .bashrc.
 
-Abre una nueva terminal y comprueba que ROS2 funciona correctamente ejecutando el siguiente comando:
+Una vez hecho esto, abre una nueva terminal y comprueba que ROS2 funciona correctamente ejecutando el siguiente comando:
 
 ```sh
-$ ros2
+ros2
 ```
 
 ## 5. Creación de un workspace, uso y ejecución de un paquete
@@ -61,31 +61,60 @@ $ ros2
 Es recomendable abrir la terminal desde el HOME (carpeta personal).
 
 ```sh
-$ mkdir -p <my_workspace>/src
-$ cd <my_workspace>/src/
-$ git clone https://github.com/fmrico/book_ros2.git
-$ cd ..
-$ colcon build --symlink-install
-$ source install/setup.sh
+mkdir -p <my_workspace>/src
 ```
-Ejemplo de ejecucion de programa una vez realizado lo anterior:
 
 ```sh
-$ ros2 run br2_basics logger
+cd <my_workspace>/src/
+```
+
+```sh
+git clone https://github.com/fmrico/book_ros2.git
+```
+
+```sh
+cd ..
+```
+
+```sh
+colcon build --symlink-install
+```
+
+Una vez haya terminado la compilación del workspace con colcon, añade la siguiente línea en el fichero .bashrc.
+
+```sh
+source ~/<my_workspace>/install/setup.bash
+```
+A continuación se muestra un ejemplo de ejecucion de programa una vez realizados todos los pasos anteriores:
+
+```sh
+ros2 run br2_basics logger
 ```
 
 ### 5.2 Creación y ejecución de un paquete
 
 ```sh
-$ cd ~/<my_workspace>/src
-$ ros2 pkg create <my_package> --dependencies <dependencies>
+cd ~/<my_workspace>/src
+```
+
+```sh
+ros2 pkg create <my_package> --dependencies <dependencies>
 ```
 
 Una vez hemos desarrollado nuestro paquete (programas, CMake, etc), realizamos lo siguiente:
 
 ```sh
-$ cd ~/<my_workspace>
-$ colcon build --symlink-install // colcon build --packages-select <my_package>
-$ source install/setup.sh
-$ ros2 run <my_package> <executable>
+cd ~/<my_workspace>
+```
+
+```sh
+colcon build --packages-select <my_package>
+```
+
+```sh
+source ~/install/setup.bash
+```
+
+```sh
+ros2 run <my_package> <executable>
 ```
