@@ -34,19 +34,13 @@ Fichero ['Resumen Teoría ASPR.pdf'](https://github.com/aleon2020/ASR_2022-2023/
 
 IMPORTANTE: Para hacer uso del índice interactivo que viene implementado en el resumen, debes descargar el documento en formato PDF.
 
-## 2. Mini-tests realizados en clase y examen final
-
-Ficheros ['Preguntas Test 1.pdf'](https://github.com/aleon2020/ASR_2022-2023/blob/main/Preguntas%20Test%201.pdf) y ['Preguntas Test 2.pdf'](https://github.com/aleon2020/ASR_2022-2023/blob/main/Preguntas%20Test%201.pdf): Contiene todas las preguntas de los dos mini-tests realizados en momentos intermedios del curso.
-
-Directorio ['Enunciado examen final'](https://github.com/aleon2020/ASR_2022-2023/tree/main/Enunciado%20examen%20final): Contiene el enunciado del examen final de la asignatura, se compone de 2 preguntas, una más teórica y otra más relacionada con las prácticas realizadas a lo largo del curso.
-
-## 3. Paquetes y prácticas
+## 2. Paquetes y prácticas
 
 Directorio ['Paquetes'](https://github.com/aleon2020/ASR_2022-2023/tree/main/Paquetes): Contiene todos los paquetes de ejemplo vistos en clase a lo largo de la asignatura.
 
 Directorio ['Prácticas'](https://github.com/aleon2020/ASR_2022-2023/tree/main/Pr%C3%A1cticas): Contiene todas las prácticas realizadas a lo largo de la asignatura.
 
-## 4. Activación de ROS2 en los laboratorios de la universidad
+## 3. Activación de ROS2 en los laboratorios de la universidad
 
 Abre una terminal EN TU HOME y ejecuta el siguiente comandos:
 
@@ -68,9 +62,9 @@ Una vez hecho esto, abre una nueva terminal y comprueba que ROS2 funciona correc
 ros2
 ```
 
-## 5. Creación de un workspace, uso y ejecución de un paquete
+## 4. Creación de un workspace, uso y ejecución de un paquete
 
-### 5.1 Creación y activación de un workspace
+### 4.1 Creación y activación de un workspace
 
 Es recomendable abrir la terminal desde el HOME (carpeta personal).
 
@@ -105,7 +99,7 @@ A continuación se muestra un ejemplo de ejecucion de programa una vez realizado
 ros2 run br2_basics logger
 ```
 
-### 5.2 Creación y ejecución de un paquete
+### 4.2 Creación y ejecución de un paquete
 
 ```sh
 cd ~/<my_workspace>/src
