@@ -1,0 +1,25 @@
+recepcionist_forocoches_node:
+  ros__parameters:
+    door:
+      pose:
+        position:
+          x: 7.5
+          y: -0.5
+        orientation:
+          w: -1.5
+    party:
+      pose:
+        position:
+          x: 1.00
+          y: 3.30
+        orientation:
+          w: -3.14
+    bar:
+      pose:
+        position:
+          x: 0.10
+          y: 6.00
+        orientation:
+          w: 1.5
+    navigation:
+      tolerance: 0.40

@@ -1,0 +1,743 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.25)  25 MAR 2023 15:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**led_manual.tex
+(./led_manual.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen141
+\enit@toks=\toks17
+\enit@inbox=\box50
+\enit@count@id=\count194
+\enitdp@description=\count195
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count199
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box51
+)
+\tc@llx=\dimen150
+\tc@lly=\dimen151
+\tc@urx=\dimen152
+\tc@ury=\dimen153
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen154
+\adjbox@Height=\dimen155
+\adjbox@Depth=\dimen156
+\adjbox@Totalheight=\dimen157
+\adjbox@pwidth=\dimen158
+\adjbox@pheight=\dimen159
+\adjbox@pdepth=\dimen160
+\adjbox@ptotalheight=\dimen161
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count266
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count267
+\@vwid@loff=\dimen162
+\@vwid@roff=\dimen163
+))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen164
+\ttl@minus=\dimen165
+\ttl@toksa=\toks21
+\titlewidth=\dimen166
+\titlewidthlast=\dimen167
+\titlewidthfirst=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box54
+)
+(./led_manual.aux)
+\openout1 = `led_manual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen169
+\scratchbox=\box55
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen170
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 479.42804pt, 89.62709pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=479.42804pt
+* \textheight=731.23584pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+<images//off_led.png, id=1, 38.544pt x 38.544pt>
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 23.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 23.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 25.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//green_led.png, id=6, 38.544pt x 38.544pt>
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 25.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 27.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//green_led_flashing.png, id=9, 38.544pt x 38.544pt>
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 27.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//speaker.png, id=11, 501.875pt x 501.875pt>
+File: images//speaker.png Graphic file (type png)
+<use images//speaker.png>
+Package pdftex.def Info: images//speaker.png  used on input line 27.
+(pdftex.def)             Requested size: 14.22636pt x 14.22087pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 29.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//orange_led.png, id=14, 38.544pt x 38.544pt>
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 29.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 31.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//orange_led_flashing.png, id=17, 38.544pt x 38.544pt>
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 31
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 33.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//red_led.png, id=20, 38.544pt x 38.544pt>
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 33.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 35.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+<images//red_led_flashing.png, id=23, 38.544pt x 38.544pt>
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 35.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 37.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 37.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 39.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 39.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 41.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 41.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 43.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 43.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 45.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 45
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 47.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 47.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 49.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 49.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 51.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 51.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 53.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 53.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 55.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 55.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 57.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 57.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 59.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 59
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 61.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 61.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 63.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 63.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 65.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 65.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 67.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 67.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 69.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 69.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 71.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 71.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 74.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 79.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 79
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 81.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 81.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 83.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 83.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 85
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 85.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 87
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 87.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 89
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 89.
+
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 91
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 91.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 93
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 93
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 95
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 95.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 97
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 97.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 99.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 99.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 101.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 101.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 103.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 103
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 105.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 105.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 107.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 10
+7.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 109.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 109.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//speaker.png Graphic file (type png)
+<use images//speaker.png>
+Package pdftex.def Info: images//speaker.png  used on input line 109.
+(pdftex.def)             Requested size: 14.22636pt x 14.22087pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 111.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 111.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 113.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 113.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 115.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 115.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 117.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 117
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 119.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 119.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 121.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 12
+1.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 123.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 123.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 125.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 125.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//speaker.png Graphic file (type png)
+<use images//speaker.png>
+Package pdftex.def Info: images//speaker.png  used on input line 125.
+(pdftex.def)             Requested size: 14.22636pt x 14.22087pt.
+
+Overfull \hbox (60.19504pt too wide) in paragraph at lines 78--128
+ [][] 
+ []
+
+
+Overfull \hbox (23.97285pt too wide) in paragraph at lines 18--129
+ []$[]$$[]$ 
+ []
+
+File: images//off_led.png Graphic file (type png)
+<use images//off_led.png>
+Package pdftex.def Info: images//off_led.png  used on input line 133.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led.png Graphic file (type png)
+<use images//green_led.png>
+Package pdftex.def Info: images//green_led.png  used on input line 133.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//green_led_flashing.png Graphic file (type png)
+<use images//green_led_flashing.png>
+Package pdftex.def Info: images//green_led_flashing.png  used on input line 133
+.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led.png Graphic file (type png)
+<use images//orange_led.png>
+Package pdftex.def Info: images//orange_led.png  used on input line 133.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//orange_led_flashing.png Graphic file (type png)
+<use images//orange_led_flashing.png>
+Package pdftex.def Info: images//orange_led_flashing.png  used on input line 13
+3.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led.png Graphic file (type png)
+<use images//red_led.png>
+Package pdftex.def Info: images//red_led.png  used on input line 133.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//red_led_flashing.png Graphic file (type png)
+<use images//red_led_flashing.png>
+Package pdftex.def Info: images//red_led_flashing.png  used on input line 133.
+(pdftex.def)             Requested size: 14.22636pt x 14.22635pt.
+File: images//speaker.png Graphic file (type png)
+<use images//speaker.png>
+Package pdftex.def Info: images//speaker.png  used on input line 134.
+(pdftex.def)             Requested size: 14.22636pt x 14.22087pt.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images//off_led.png> <./
+images//green_led.png> <./images//green_led_flashing.png> <./images//speaker.pn
+g> <./images//orange_led.png> <./images//orange_led_flashing.png> <./images//re
+d_led.png> <./images//red_led_flashing.png>] (./led_manual.aux) ) 
+Here is how much of TeX's memory you used:
+ 3701 strings out of 478287
+ 62106 string characters out of 5849289
+ 387495 words of memory out of 5000000
+ 21881 multiletter control sequences out of 15000+600000
+ 473523 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,62p,378b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on led_manual.pdf (1 page, 160784 bytes).
+PDF statistics:
+ 259 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 695 words of extra memory for PDF output out of 10000 (max. 10000000)
+

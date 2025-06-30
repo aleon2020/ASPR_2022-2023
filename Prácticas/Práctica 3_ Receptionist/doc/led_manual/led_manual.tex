@@ -1,0 +1,139 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage{graphicx} %LaTeX package to import graphics
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{lmargin=10mm,bmargin=20mm,tmargin=20mm}
+\usepackage[export]{adjustbox}
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge}{\thechapter}{20pt}{\huge\bf}
+\graphicspath{{images/}} %configuring the graphicx package
+\title{ledmanual}
+\author{Javier Izquierdo Hernández}
+\date{\today}
+\begin{document}
+	\thispagestyle{empty}
+	\centering
+	{\bfseries\Huge Forocoches Debug Manual \par}
+	\vspace{1cm}
+	\begin{minipage}{0.6\textwidth}
+	\centering
+	\begin{Large}
+	
+	\begin{tabular}{l}
+		01\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{off_led} : OFF\\
+		
+		02\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{green_led} : PERSON\_DETECTED\\
+		
+		03\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{green_led_flashing}  \includegraphics*[width=5mm]{speaker} : PERSON\_FOUND\\
+
+		04\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{orange_led} : -----\\
+		
+		05\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{orange_led_flashing} : -----\\
+		
+		06\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{red_led} : -----\\
+		
+		07\  \includegraphics*[width=5mm]{off_led} \includegraphics*[width=5mm]{red_led_flashing} : -----\\
+		
+		08\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{off_led} : -----\\
+		
+		09\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{green_led} : OK\\
+		
+		10\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{green_led_flashing} : -----\\
+		
+		11\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{orange_led} : -----\\
+		
+		12\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{orange_led_flashing} : -----\\
+		
+		13\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{red_led} : -----\\
+		
+		14\  \includegraphics*[width=5mm]{green_led} \includegraphics*[width=5mm]{red_led_flashing} : -----\\
+		
+		15\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{off_led} : -----\\
+		
+		16\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{green_led} : -----\\
+		
+		17\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{green_led_flashing} : READY\\
+		
+		18\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{orange_led} : -----\\
+		
+		19\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{orange_led_flashing} : -----\\
+		
+		20\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{red_led} : -----\\
+		
+		21\  \includegraphics*[width=5mm]{green_led_flashing} \includegraphics*[width=5mm]{red_led_flashing} : -----\\
+		
+		22\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{off_led} : -----\\
+		
+		23\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{green_led} : -----\\
+		
+		24\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{green_led_flashing} : -----\\
+		
+		25\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{orange_led} : -----\\
+	\end{tabular}
+	\end{Large}
+	\end{minipage}%
+	\begin{minipage}{0.45\textwidth}
+	\centering
+	\begin{Large}
+	\begin{tabular}{l}
+		26\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{orange_led_flashing} : -----\\
+		
+		27\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{red_led} : -----\\
+		
+		28\  \includegraphics*[width=5mm]{orange_led} \includegraphics*[width=5mm]{red_led_flashing} : -----\\
+		
+		29\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{off_led} : ROTATING\\
+		
+		30\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{green_led} : MOVING\_REALLY\_SLOW\\
+		
+		31\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{green_led_flashing} : MOVING\_SLOW\\
+		
+		32\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{orange_led} : MOVING\_MODERATE\\
+		
+		33\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{orange_led_flashing} : MOVING\_FAST\\
+		
+		34\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{red_led} : MOVING\_TOO\_FAST\\
+		
+		35\  \includegraphics*[width=5mm]{orange_led_flashing} \includegraphics*[width=5mm]{red_led_flashing} : MOVING\_NO\_CONTROL\\
+		
+		36\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{off_led} : -----\\
+		
+		37\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{green_led} : -----\\
+		
+		38\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{green_led_flashing} : -----\\
+		
+		39\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{orange_led} : -----\\
+		
+		40\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{orange_led_flashing} : LOW\_BATTERY\\
+		
+		41\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{speaker} : NOT\_ON\_GROUND\\
+		
+		42\  \includegraphics*[width=5mm]{red_led} \includegraphics*[width=5mm]{red_led_flashing} : -----\\
+		
+		43\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{off_led} : -----\\
+		
+		44\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{green_led} : -----\\
+		
+		45\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{green_led_flashing} : -----\\
+	
+		46\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{orange_led} : -----\\
+		
+		47\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{orange_led_flashing} : -----\\
+		
+		48\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{red_led} : -----\\
+		
+		49\  \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{red_led_flashing} \includegraphics*[width=5mm]{speaker} : ERROR\\
+	\end{tabular}
+	\end{Large}
+	\end{minipage}%
+
+\vspace{1cm}
+
+\begin{tabular}{c c c c c c c c}
+	\includegraphics*[width=5mm]{off_led} & \includegraphics*[width=5mm]{green_led} & \includegraphics*[width=5mm]{green_led_flashing} & \includegraphics*[width=5mm]{orange_led} & \includegraphics*[width=5mm]{orange_led_flashing} & \includegraphics*[width=5mm]{red_led} & \includegraphics*[width=5mm]{red_led_flashing} &
+	\includegraphics*[width=5mm]{speaker} \\
+	Off & Green & Flashing & Orange & Flashing & Red & Flashing & Sound\\
+	&& Green && Orange && Red & \\
+
+\end{tabular}
+\end{document}

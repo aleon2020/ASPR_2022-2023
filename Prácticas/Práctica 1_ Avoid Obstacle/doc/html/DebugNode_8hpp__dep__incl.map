@@ -1,0 +1,6 @@
+<map id="include/avoid_obstacle_forocoches/DebugNode.hpp" name="include/avoid_obstacle_forocoches/DebugNode.hpp">
+<area shape="rect" id="node1" title="Node implementation for debugging purposes for the kobuki." alt="" coords="133,5,341,47"/>
+<area shape="rect" id="node2" href="$DebugNode_8cpp.html" title="Node implementation for debugging purposes for the kobuki." alt="" coords="5,95,212,136"/>
+<area shape="rect" id="node3" href="$AvoidObstacleNode_8hpp.html" title=" " alt="" coords="237,95,495,136"/>
+<area shape="rect" id="node4" href="$AvoidObstacleNode_8cpp.html" title=" " alt="" coords="237,184,495,225"/>
+</map>

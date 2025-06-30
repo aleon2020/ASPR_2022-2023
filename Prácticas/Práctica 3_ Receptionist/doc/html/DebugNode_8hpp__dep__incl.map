@@ -1,0 +1,9 @@
+<map id="include/seek_and_capture_forocoches/DebugNode.hpp" name="include/seek_and_capture_forocoches/DebugNode.hpp">
+<area shape="rect" id="node1" title="Node implementation for debugging purposes for the kobuki." alt="" coords="583,5,791,47"/>
+<area shape="rect" id="node2" href="$DebugNode_8cpp.html" title="Node implementation for debugging purposes for the kobuki." alt="" coords="5,95,212,136"/>
+<area shape="rect" id="node3" href="$FindPerson_8hpp_source.html" title=" " alt="" coords="237,95,439,136"/>
+<area shape="rect" id="node4" href="$Is__on__ground_8hpp_source.html" title=" " alt="" coords="463,95,682,136"/>
+<area shape="rect" id="node5" href="$IsPerson_8hpp_source.html" title=" " alt="" coords="707,95,897,136"/>
+<area shape="rect" id="node6" href="$LowBattery_8hpp_source.html" title=" " alt="" coords="921,95,1125,136"/>
+<area shape="rect" id="node7" href="$Navigation_8hpp_source.html" title=" " alt="" coords="1150,95,1353,136"/>
+</map>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <KeepRunningUntilFailure>
+            <Sequence>
+                <ReactiveFallback name="Finding person">
+                    <Condition ID="IsPerson" person_frame=""/>
+                    <Action ID="FindPerson"/>
+                </ReactiveFallback>
+                <Action ID="Navigate" person_frame=""/>
+                <Action ID="Turn"/>
+            </Sequence>
+        </KeepRunningUntilFailure>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="FindPerson"/>
+        <Condition ID="IsPerson">
+            <output_port name="person_frame"/>
+        </Condition>
+        <Action ID="Navigate">
+            <input_port name="person_frame"/>
+        </Action>
+        <Action ID="Turn"/>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>

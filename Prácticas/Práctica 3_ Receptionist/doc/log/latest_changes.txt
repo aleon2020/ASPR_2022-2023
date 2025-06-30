@@ -1,0 +1,2 @@
+-> Added action management to Go_to_Waypoint Node
+-> Removed redundant "kobuki_ros_interfaces" dependencies

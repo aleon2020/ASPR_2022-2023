@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <KeepRunningUntilFailure>
+            <Sequence>
+                <Sequence name="Go to door">
+                    <Action ID="Get_Waypoint" waypoint="{wp}" wp_id="door"/>
+                    <Action ID="Go_to_Waypoint" waypoint="{wp}"/>
+                    <Action ID="Wait_Person"/>
+                    <RetryUntilSuccessful num_attempts="100">
+                        <Action ID="Ask_Name" person_name="{name}"/>
+                    </RetryUntilSuccessful>
+                </Sequence>
+                <Sequence name="Go to party">
+                    <Action ID="Get_Waypoint" waypoint="{wp}" wp_id="party"/>
+                    <Action ID="Go_to_Waypoint" waypoint="{wp}"/>
+                    <RetryUntilSuccessful num_attempts="100">
+                        <Action ID="Ask_Drink" drink="{drink}"/>
+                    </RetryUntilSuccessful>
+                    <Action ID="Find_Chair" chair="{chair}"/>
+                    <Action ID="Greet" person_name="{name}"/>
+                </Sequence>
+                <Sequence name="Grab drink">
+                    <Action ID="Get_Waypoint" waypoint="{wp}" wp_id="bar"/>
+                    <Action ID="Go_to_Waypoint" waypoint="{wp}"/>
+                    <Action ID="Order_Drink" drink="{drink}"/>
+                </Sequence>
+                <Sequence name="Return drink">
+                    <Action ID="Deliver_Drink" chair="{chair}"/>
+                    <RetryUntilSuccessful num_attempts="100">
+                        <Action ID="Wait_Drink_Received"/>
+                    </RetryUntilSuccessful>
+                </Sequence>
+            </Sequence>
+        </KeepRunningUntilFailure>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="Ask_Drink">
+            <output_port name="drink"/>
+        </Action>
+        <Action ID="Ask_Name">
+            <output_port name="person_name"/>
+        </Action>
+        <Action ID="Deliver_Drink">
+            <inout_port default="{chair}" name="chair"/>
+        </Action>
+        <Action ID="Find_Chair">
+          <output_port name="chair" default="{chair}"/>
+        </Action>
+        <Action ID="Get_Waypoint">
+            <output_port name="waypoint"/>
+            <input_port default="door" name="wp_id"/>
+        </Action>
+        <Action ID="Go_to_Waypoint">
+            <input_port name="waypoint"/>
+        </Action>
+        <Action ID="Greet">
+            <input_port name="person_name"/>
+        </Action>
+        <Action ID="Order_Drink">
+            <input_port name="drink"/>
+        </Action>
+        <Action ID="Tell">
+            <input_port name="to_tell"/>
+        </Action>
+        <Action ID="Wait_Drink_Received"/>
+        <Action ID="Wait_Person"/>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>
